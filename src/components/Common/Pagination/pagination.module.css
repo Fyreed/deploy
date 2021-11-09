@@ -1,0 +1,13 @@
+.pagination{
+	list-style: none;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 0;
+    margin: 15px;
+	 text-align: center;
+}
+
+.selected{
+	font-size: 26px;
+}

@@ -1,0 +1,18 @@
+.box {
+	display: grid;
+	grid-template-columns: 5% 1fr 1fr 5%;
+	grid-area: header;
+	background-color: #000;
+	align-items: center;
+ }
+ .logotype{
+	width: 100px;
+	grid-column: 2/3;
+ }
+ .loginBlock{
+ }
+ .login{
+	color: #fff;
+	text-decoration: none;
+	float: right;
+ }

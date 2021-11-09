@@ -1,0 +1,21 @@
+/* Any */
+
+.frog-box {
+  display: grid;
+  display: -ms-grid;
+  grid-template:
+    [start] "header" 75px [row2]
+    [row2]  "content-box" 1fr [row-end];
+    background-color: #202020;
+}
+
+/* Content */
+
+.content-box{
+  display: grid;
+  grid-template-columns: 5% 15% 1fr 5%;
+  color: #fff;
+}
+.content-box__item{
+  grid-area: 2/3;
+}

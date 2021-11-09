@@ -1,0 +1,42 @@
+.box{
+	display: grid;
+}
+
+.userBox{
+	display: grid;
+   grid-template-columns: 10% 1fr;
+	width: 70%;
+   border: 1px solid #fff;
+   border-radius: 15px;
+   margin: 10px 15px;
+	padding: 13px 0 0 0;
+}
+.leftColumn{
+	text-align: center;
+}
+.avatar{
+	width: 70px;
+	padding: 1px;
+	border-radius: 50%;
+	height: 70px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.follow{
+	margin: 15px auto;
+	width: 70px;
+}
+
+.info{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.userInfo, .location{
+	padding: 15px 25px;
+	display: grid;
+	align-content: space-between;
+}
+.location{
+	text-align: right;
+}

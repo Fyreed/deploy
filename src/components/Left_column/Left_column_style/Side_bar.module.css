@@ -1,0 +1,4 @@
+.box{
+	grid-area: side;
+	grid-column: 2/3;
+ }
