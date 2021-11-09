@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Dialogs/Dialogs_style/Dialogs.module.css"],"names":[],"mappings":"AAAA,oBACC,YAAa,CACb,gCACD","file":"4.9d3318ee.chunk.css","sourcesContent":[".box {\n\tdisplay: grid;\n\tgrid-template-columns: 0.7fr 1.3fr;\n}"]}
